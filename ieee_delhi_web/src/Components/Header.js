@@ -30,9 +30,8 @@ function Header() {
           <div className="ver_line2">
 
           </div>
-<div className="headerbg">
+<div className="headerbg"/>
 
-</div>
 <div className="headersat">
 
 </div>
@@ -40,15 +39,18 @@ function Header() {
 <nav role="navigation" className="primary-navigation">
   <ul>
     <li><a href="#">Home</a></li>
-    <li><a href="#">Work</a>
+    <li><a href="#">Gallery</a></li>
+    <li><a href="#">Communities</a>
       <ul class="dropdown">
-        <li><a href="#">Web Development</a></li>
-        <li><a href="#">Web Design</a></li>
-        <li><a href="#">Illustration</a></li>
-        <li><a href="#">Iconography</a></li>
+        <li><a href="#">Jammu and kashmir</a></li>
+        <li><a href="#">Chandigrah</a></li>
+        <li><a href="#">Haryana</a></li>
+        <li><a href="#">Himachal Pradesh</a></li>
+        <li><a href="#">Rajasthan</a></li>
       </ul>
     </li>
     <li><a href="#">About</a></li>
+    <li><a href="#">SSN'21</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
 </nav>
