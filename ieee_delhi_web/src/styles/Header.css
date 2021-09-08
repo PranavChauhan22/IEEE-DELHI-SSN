@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
 
 /* Smartphones (portrait) ----------- */
 body{
@@ -25,13 +26,35 @@ and (max-width : 767px) {
 	
 	
 	}
-	.type-flex{
-		display: flex;
-		flex-direction: column;
+
+
+	.type-mob{
+		font-size: 20px;
+		color: rgb(1, 165, 1);
+		
+
 	}
-.type-mobv{
-	color: black;
-	font-size:23px;
+	.font-mob{
+		font-size: 20px;
+		
+	
+		font-family: 'Kaisei HarunoUmi', serif;
+	}
+	.font-mob1{
+		font-size: 15px;
+		color: #1e81b0;
+		font-weight: bold;
+	
+		font-family: 'Kaisei HarunoUmi', serif;
+	}
+
+.type-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	
 
 }
 	.logo_for_mob{
@@ -63,6 +86,9 @@ and (min-width : 767px) {
 
 	   
 	}
+	.type-flex{
+		visibility: hidden;
+	}
 	
 	nav.primary-navigation ul li {
 		list-style: none;
@@ -75,6 +101,12 @@ and (min-width : 767px) {
 		text-align: center;
 		font-family: arvo;
 	}
+.primary-navigation{
+	position: absolute;
+	top: 0;
+	margin: 10px;
+	right: 0;
+}
 	
 	nav.primary-navigation li a {
 		color: black;
@@ -141,7 +173,7 @@ and (min-width : 767px) {
 	background-size: cover;
 	position: absolute;
 	right: 0;
-	margin-top: 15vh;
+	margin-top: 12vh;
 	/* z-index: 1; */
 
 
@@ -259,15 +291,15 @@ and (min-width : 767px) {
 .icons{
 	display: flex;
 	flex-direction: column;
-	top: 41vh;
+	top: 48vh;
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 26px;
 	
 }
 .icon
 {
 	padding: 10px;
-	font-size: 30px;
+	font-size: 40px;
 }
 .down_arrow{
 	top: 90vh;
