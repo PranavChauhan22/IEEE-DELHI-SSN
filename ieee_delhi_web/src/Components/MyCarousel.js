@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import ReactCardCarousel from "react-card-carousel";
 import Cards from"./Cards"
+import "../styles/MyCarousel.css"
 
 class MyCarousel extends Component {
   static get CONTAINER_STYLE() {
@@ -20,8 +21,13 @@ class MyCarousel extends Component {
 
   render() {
     return (
+    
+
       <div style={MyCarousel.CONTAINER_STYLE}>
-        <ReactCardCarousel autoplay={false} autoplay_speed={2500}>
+        <div className="ssn_title">
+
+        </div>
+        <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
           <Cards/>
           <Cards/>
           <Cards/>
@@ -30,7 +36,9 @@ class MyCarousel extends Component {
           
          
         </ReactCardCarousel>
+       
       </div>
+
     );
   }
 }

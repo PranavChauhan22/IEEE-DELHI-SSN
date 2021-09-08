@@ -1,0 +1,10 @@
+.ssn_title{
+    background-image: url("../Images/SSN_TITLE.jpg");
+    background-size: cover;
+    z-index: 2;
+    width: 200px;
+    position: absolute;
+
+    height: 200px;
+    margin: auto;
+}

@@ -1,0 +1,41 @@
+.upper{
+    background-image: url("../Images/ieee-web-form.jpg");
+    background-size: cover;
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+}
+.form{
+    
+   position: absolute;
+   margin: 10vh;
+}
+.logout_icon{
+    font-size: 40px;
+    opacity: 0.5;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+.logout_icon:hover{
+    font-size: 43px;
+    opacity: 1;
+    margin: 10px;
+    cursor:pointer;
+   
+
+}
+.iconwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logout_text{
+    margin: 16px;
+    font-size: 20px;
+    
+}
+
+.css-form{
+    min-height:300px; height:inherit; overflow:auto;
+}

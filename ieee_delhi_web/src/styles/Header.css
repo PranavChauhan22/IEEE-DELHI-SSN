@@ -1,84 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-nav.primary-navigation {
-	margin: 0 auto;
-	display: block;
-	padding: 20px 0 0 0;
-	text-align: center;
-	font-size: 16px;
-   
-}
 
-nav.primary-navigation ul li {
-	list-style: none;
-	margin: 0 auto;
-	/* border-left: 2px solid #3ca0e7; */
-	display: inline-block;
-	padding: 0 30px;
-	position: relative;
-	text-decoration: none;
-	text-align: center;
-	font-family: arvo;
+/* Smartphones (portrait) ----------- */
+body{
+	height: 100%;
+	background-color: white;
 }
+@media only screen 
+and (max-width : 767px) {
 
-nav.primary-navigation li a {
+	.headerbg{
+		background-image: url("../Images/header_final_img.jpg");
+	
+	 background-position: center center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height: 0;
+	 margin: 2.5vw 2.5vw;
+	 padding-bottom: 56.25%;
+	 position: relative;
+	 text-align: center;
+	 z-index: 0;
+	 
+	
+	
+	}
+	.type-flex{
+		display: flex;
+		flex-direction: column;
+	}
+.type-mobv{
 	color: black;
-}
+	font-size:23px;
 
-nav.primary-navigation li a:hover {
-	color: #3ca0e7;
 }
+	.logo_for_mob{
+		background-image: url("../Images/MOB-VIEW-IEEE-HEADER-LOGO.jpg");
+		width: 40vw;
+		height: 20vh;
+		background-size: cover;
+		margin: auto;
+	 
+	
+	}
+	.head1,.head2,.head3,.primary-navigation,.down_arrow,.icons{
+		visibility: hidden;
+	}
+	
+}
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 767px) {
+	.mobmenu{
+		visibility: hidden;
+	}
+	nav.primary-navigation {
+		margin: 0 auto;
+		display: block;
+		padding: 20px 0 0 0;
+		text-align: center;
+		font-size: 16px;
 
-nav.primary-navigation li:hover {
-	cursor: pointer;
-}
-
-nav.primary-navigation ul li ul {
-	visibility: hidden;
-	opacity: 0;
-	position: absolute;
-	padding-left: 0;
-	left: 0;
-	display: none;
-	background: white;
-}
-
-nav.primary-navigation ul li:hover > ul,
-  nav.primary-navigation ul li ul:hover {
-	visibility: visible;
-	opacity: 1;
-	display: block;
-	min-width: 250px;
-	text-align: left;
-	padding-top: 20px;
-	box-shadow: 0px 3px 5px -1px #ccc;
-}
-
-nav.primary-navigation ul li ul li {
-	clear: both;
-	width: 100%;
-	text-align: left;
-	margin-bottom: 20px;
-	border-style: none;
-}
-
-nav.primary-navigation ul li ul li a:hover {
-	padding-left: 10px;
-	border-left: 2px solid #3ca0e7;
-	transition: all 0.3s ease;
-}
-
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	color: #3CA0E7;
-}
-
-ul li ul li a {
-	transition: all 0.5s ease;
-}
+	   
+	}
+	
+	nav.primary-navigation ul li {
+		list-style: none;
+		margin: 0 auto;
+		/* border-left: 2px solid #3ca0e7; */
+		display: inline-block;
+		padding: 0 30px;
+		position: relative;
+		text-decoration: none;
+		text-align: center;
+		font-family: arvo;
+	}
+	
+	nav.primary-navigation li a {
+		color: black;
+	}
+	
+	nav.primary-navigation li a:hover {
+		color: #3ca0e7;
+	}
+	
+	nav.primary-navigation li:hover {
+		cursor: pointer;
+	}
+	
+	nav.primary-navigation ul li ul {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		padding-left: 0;
+		left: 0;
+		display: none;
+		background: white;
+	}
+	
+	nav.primary-navigation ul li:hover > ul,
+	  nav.primary-navigation ul li ul:hover {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		min-width: 250px;
+		text-align: left;
+		padding-top: 20px;
+		box-shadow: 0px 3px 5px -1px #ccc;
+	}
+	
+	nav.primary-navigation ul li ul li {
+		clear: both;
+		width: 100%;
+		text-align: left;
+		margin-bottom: 20px;
+		border-style: none;
+	}
+	
+	nav.primary-navigation ul li ul li a:hover {
+		padding-left: 10px;
+		border-left: 2px solid #3ca0e7;
+		transition: all 0.3s ease;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: #3CA0E7;
+	}
+	
+	ul li ul li a {
+		transition: all 0.5s ease;
+	}
 .headerbg{
 	background-image: url("../Images/header_final_img.jpg");
 	width: 60vw;
@@ -107,7 +162,10 @@ ul li ul li a {
 	
 
 
+
 }
+
+
 @keyframes satellite {
 	0%{
 		top: 7vh;
@@ -219,4 +277,5 @@ ul li ul li a {
 	animation-name: blink;
     animation-iteration-count: infinite;
     animation-duration: 2s;
+}
 }

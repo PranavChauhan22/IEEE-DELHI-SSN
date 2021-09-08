@@ -14,8 +14,8 @@ function Cards() {
     <div class="menu">
         <div class="opener"><span></span><span></span><span></span></div>
     </div>
-    <h2 class="name">Morgan Sweeney</h2>
-    <div class="title">Ant Collector</div>
+    <h2 class="name">Gagan Singh</h2>
+    <div class="title">Section Student Representative</div>
     <div class="actions">
         <div class="follow-info">
         <div className="foricons">
@@ -24,10 +24,10 @@ function Cards() {
 <FaLinkedinIn className="icons2" />
 </div>
         </div>
-        <div class="follow-btn"><button>Follow</button></div>
+        <div class="follow-btn"><button>SECTION STUDENT REPRESENTATIVE</button></div>
     </div>
 
-    <div class="desc">Morgan has collected ants since they were six years old and now has many dozen ants but none in their pants.</div>
+    <div class="desc">Gagan is currently serving as a vice - chair at IEEE NSUT</div>
 </div>
         </div>
     )
