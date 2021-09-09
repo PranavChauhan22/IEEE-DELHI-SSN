@@ -1,0 +1,7 @@
+.report-css{
+    min-height:300px; height:inherit; overflow:auto;
+}
+.report{
+    height: 100vh;
+    overflow-y: hidden;
+}

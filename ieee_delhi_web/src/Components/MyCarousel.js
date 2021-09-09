@@ -5,29 +5,23 @@ import Cards from"./Cards"
 import "../styles/MyCarousel.css"
 
 class MyCarousel extends Component {
-  static get CONTAINER_STYLE() {
-    return {
-      position: "relative",
-      height: "100vh",
-      width: "100%",
-      display: "flex",
-      flex: 1,
-      justifyContent: "center",
-      alignItems: "middle"
-    };
-  }
 
- 
+  
 
   render() {
     return (
-    
+  <div className="align-cards">
 
-      <div style={MyCarousel.CONTAINER_STYLE}>
-        <div className="ssn_title">
+<div className="team">
 
-        </div>
-        <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+      
+      <div className="ssn_title"/>
+        <div className="img-team"/>
+
+          <div className="cards">
+      <div className="container_style">
+        <ReactCardCarousel autoplay={false} autoplay_speed={2500}>
+
           <Cards/>
           <Cards/>
           <Cards/>
@@ -36,8 +30,11 @@ class MyCarousel extends Component {
           
          
         </ReactCardCarousel>
+          </div>
+</div>
        
       </div>
+  </div>
 
     );
   }

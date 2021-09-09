@@ -1,0 +1,59 @@
+@media only screen 
+and (max-width : 1050px) {
+
+	.reports-img{
+		background-image: url("../Images/5252431.jpg");
+	
+	 background-position: center center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height: 0;
+	 margin: 2.5vw 2.5vw;
+	 padding-bottom: 56.25%;
+	 position: relative;
+	 text-align: center;
+	 z-index: 0;
+	 
+	
+	
+	}
+    .reports-bg{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+.report-logo{
+    background-image: url("../Images/reports-logo.jpg");
+    width: 50vw;
+    height: 30vh;
+    z-index: 10;
+    background-size: cover;
+    margin: auto;
+ 
+
+
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+ 
+
+}
+@media only screen 
+and (min-width : 1050px) {
+.reports-img{
+		background-image: url("../Images/5252431.jpg");
+	
+        width: 500px;
+        height: 500px;
+        background-size: cover;
+        position: absolute;
+        right: 10px;
+        top: 3vh;
+        margin: 30px;
+	
+	
+	}
+}

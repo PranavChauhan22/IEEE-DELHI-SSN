@@ -9,6 +9,24 @@ font-family: 'Open Sans', sans-serif;
 font-size: 30px;
 
 }
+@media only screen 
+and (max-width : 1050px) {
+
+.align-gallery{
+    position: absolute;
+    top: 260vh;
+    width: 100vw;background-color: white;
+}
+}
+@media only screen 
+and (min-width : 1050px) {
+
+.align-gallery{
+    position: absolute;
+    top: 200vh;
+    width: 100vw;background-color: white;
+}
+}
 body{
     background-color: #ffffff;
 }
@@ -49,7 +67,7 @@ body{
 }
 .photos{
    padding: 20px;
-   margin: 20px;
+   margin: 70px;
 }
 .photos:hover{
     color: rgb(0, 132, 255);

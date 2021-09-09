@@ -16,22 +16,36 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import About from "./Components/About";
 
 
+import "../src/styles/App.css"
+import Reportpanel from "./Components/Reportpanel";
+import ReportsDisplay from "./Components/ReportDisplay";
+import ReportCard from "./Components/ReportCard";
 
 
 function App() {
   return (
-    
+   
+
     <Router>
 
  
       <Switch>
         <Route path="/" exact>
+          <Home/>
           <About/>
+          <GallerySelector/>
+          <Cards_Carousel/>
+          {/* <Reportpanel/> */}
+          {/* <ReportsDisplay/> */}
+          {/* <ReportCard/> */}
+          {/* <Events/> */}
+
         </Route>
         
       </Switch>
    
   </Router>
+   
   );
 }
 

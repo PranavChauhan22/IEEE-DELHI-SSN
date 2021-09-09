@@ -272,7 +272,7 @@ and (min-width : 767px) {
 }
 .ver_line1{
 	width: 10px;
-	height: 30vh;
+	height: 20vh;
 	background-color: black;
 	position: absolute;
 	margin: 40px;
@@ -291,7 +291,7 @@ and (min-width : 767px) {
 .icons{
 	display: flex;
 	flex-direction: column;
-	top: 48vh;
+	top: 40vh;
 	position: absolute;
 	margin-left: 26px;
 	
@@ -299,7 +299,7 @@ and (min-width : 767px) {
 .icon
 {
 	padding: 10px;
-	font-size: 40px;
+	font-size: 20px;
 }
 .down_arrow{
 	top: 90vh;
