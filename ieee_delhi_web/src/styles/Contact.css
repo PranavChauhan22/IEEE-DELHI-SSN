@@ -1,0 +1,223 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+height: 65vh;width: 100vw;
+    
+    align-items: center;
+
+}
+.foot{
+    position: absolute;
+    top: 650vh;
+}
+.fb:hover,.ig:hover,.ln:hover{
+    color: rgb(70, 155, 252);
+    cursor:pointer;
+}
+
+.form-name,.form-email,.form-mssg{
+    margin: 20px;
+    width: 40vw;
+
+    height: 7vh;
+    background-color: transparent;
+    border: 3px solid rgb(45, 97, 165);
+    border-radius: 15px;
+    padding: 15px;
+}
+.form-name:hover,.form-email:hover,.form-mssg:hover{
+    transition-timing-function: ease ;
+    transition-duration: 1s;
+    width: 45vw;
+}
+.form-btn{
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(33, 204, 33);
+
+}
+
+.form-btn:hover{
+    background-color: white;
+    color: rgb(33, 204, 33);
+}
+
+
+@keyframes arrow {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0.8;
+    }
+
+}
+@media only screen 
+and (max-width : 767px) {
+    .icon-wrap-1{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        left: 0;
+        top:12vh;
+        margin: 22px;
+        
+    
+    }
+    .footer{
+        height: 90vh;
+    }
+   
+    .fb,.ln,.ig{
+        color: white;
+        margin: 20px;
+        font-size: 30px;
+    }
+    .arrow-footer{
+        position: absolute;
+        right: 0;
+        top: 65vh;
+        margin: 30px;
+    
+    }
+    .up-arrow{
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        
+    }
+    .back-to-top{
+        color: white;
+        font-size: 15px;
+    
+    
+    }
+    .back-to-top:hover{
+        color: rgb(70, 155, 252);
+        font-size: 15px;
+        cursor: pointer;
+    
+    
+    }
+    .footer-text{
+        margin: 20px;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.37);
+    }
+    
+    .footertext{
+ visibility: hidden;
+    }
+    .footer_text,.footers_text{
+  visibility: hidden;
+    }
+    .footer_text{
+        visibility: hidden;
+    }
+    .footers_text:hover{
+        visibility: hidden;
+    }
+
+        
+        .phn-icon{
+            visibility: hidden;
+        }
+}
+@media only screen 
+and (min-width : 767px) {
+    .footer-text{
+        margin: 20px;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.37);
+    }
+    
+    .icon-wrap-1{
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        left: 0;
+        top: 20px;
+        
+    
+    }.footertext2{
+        display: flex;
+        position: absolute;
+    flex-direction: column;
+        right: 0;
+        top: 20px;
+    }
+    
+    .fb,.ln,.ig{
+        color: white;
+        margin: 20px;
+        font-size: 30px;
+    }
+    .arrow-footer{
+        position: absolute;
+        right: 0;
+        top: 350px;
+        margin: 30px;
+    
+    }
+    .up-arrow{
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        
+    }
+    .back-to-top{
+        color: white;
+        font-size: 15px;
+    
+    
+    }
+    .back-to-top:hover{
+        color: rgb(70, 155, 252);
+        font-size: 15px;
+        cursor: pointer;
+    
+    
+    }
+
+    
+    .footertext{
+        color: white;
+        display: flex;
+        position: absolute;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 45px;
+        top: 80px;
+    }
+    .footer_text,.footers_text{
+        margin: 20px;
+    }
+    .footer_text{
+        color: rgb(70, 155, 252);
+    }
+    .footers_text:hover{
+        color: rgb(70, 155, 252);
+        cursor: pointer;
+    }
+    .icon-phn{
+        margin: 20px;
+        color: rgb(70, 155, 252);
+        }
+        .phn-icon{
+            margin: 20px;
+            color: rgb(70, 155, 252);
+        }
+        .piyush_ssr,.gagan_ssr{
+            color: white;
+        }
+        
+}

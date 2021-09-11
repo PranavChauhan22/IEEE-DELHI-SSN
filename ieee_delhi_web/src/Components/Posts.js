@@ -51,6 +51,16 @@ function Posts() {
         sugar plum dragée
       </div>
     </div>
+    <div className="item">
+      <div className="item__details">
+        sugar plum dragée
+      </div>
+    </div>
+    <div className="item">
+      <div className="item__details">
+        sugar plum dragée
+      </div>
+    </div>
   </div>
 </div>
         </div>

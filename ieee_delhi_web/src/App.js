@@ -20,25 +20,30 @@ import "../src/styles/App.css"
 import Reportpanel from "./Components/Reportpanel";
 import ReportsDisplay from "./Components/ReportDisplay";
 import ReportCard from "./Components/ReportCard";
+import Contact from "./Components/Contact";
 
 
 function App() {
   return (
    
+<div className="app">
 
     <Router>
 
  
       <Switch>
         <Route path="/" exact>
-          <Home/>
+          {/* <Home/>
           <About/>
           <GallerySelector/>
-          <Cards_Carousel/>
+          <Cards_Carousel/> */}
+          {/* <Contact/> */}
           {/* <Reportpanel/> */}
           {/* <ReportsDisplay/> */}
           {/* <ReportCard/> */}
           {/* <Events/> */}
+          {/* <Contact/> */}
+          <Testimonials/>
 
         </Route>
         
@@ -46,6 +51,7 @@ function App() {
    
   </Router>
    
+</div>
   );
 }
 

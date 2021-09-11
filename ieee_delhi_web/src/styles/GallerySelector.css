@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 .gallery_head{
 
 position: absolute;
@@ -14,7 +15,7 @@ and (max-width : 1050px) {
 
 .align-gallery{
     position: absolute;
-    top: 260vh;
+    top: 265vh;
     width: 100vw;background-color: white;
 }
 }
@@ -23,7 +24,7 @@ and (min-width : 1050px) {
 
 .align-gallery{
     position: absolute;
-    top: 200vh;
+    top: 220vh;
     width: 100vw;background-color: white;
 }
 }

@@ -4,6 +4,7 @@ import { BiCircle } from 'react-icons/bi';
 import { BsCircleFill } from 'react-icons/bs';
 import { IoMdArrowDroprightCircle, IoMdArrowDropleftCircle } from 'react-icons/io';
 import {useState} from "react"
+import { Carousel } from 'react-responsive-carousel';
 function Testimonials() {
   const [state, setstate] = useState(0)
   var wo;
