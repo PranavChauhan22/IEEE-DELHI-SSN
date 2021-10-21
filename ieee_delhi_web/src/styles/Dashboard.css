@@ -25,6 +25,10 @@
    
 
 }
+.atag{
+    text-decoration: none;
+    color: black;
+}
 .iconwrapper{
     display: flex;
     flex-direction: row;
@@ -38,4 +42,8 @@
 
 .css-form{
     min-height:300px; height:inherit; overflow:auto;
+}
+.logout_text:hover{
+    color: rgb(66, 146, 250);
+    cursor: pointer;
 }

@@ -4,6 +4,7 @@ import MediaCard from './MediaCard';
 import "../styles/Events.css"
 import config from "../Components/config"
 import load from "../Components/load"
+import CarouselDemo from './demo/CarouselDemo';
 
 
 
@@ -45,7 +46,23 @@ import load from "../Components/load"
       return <div>{this.state.error}</div>;
     }
     return (
-      <MediaCard data={cars}/>
+      
+
+      <div className="ev-t">
+  <div className="logo_img"/>
+  <div className="event-img-main"/>
+  <div className="eva">
+
+      <CarouselDemo data={cars}/>
+  </div>
+  
+
+
+      
+
+   
+      </div>
+  
     );
   }
   

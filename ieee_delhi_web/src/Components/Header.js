@@ -28,7 +28,7 @@ export default function Header() {
   return (
 
 
-    <div className="header">
+    <div className="header" id="Home">
       <div className="logo_for_mob" />
 
       <div className="mobmenu">
@@ -76,20 +76,19 @@ export default function Header() {
       <nav role="navigation" className="primary-navigation">
         <ul>
 
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Communities</a>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#">Dashboard</a>
             <ul class="dropdown">
-              <li><a href="#">Jammu and kashmir</a></li>
-              <li><a href="#">Chandigrah</a></li>
-              <li><a href="#">Haryana</a></li>
-              <li><a href="#">Himachal Pradesh</a></li>
-              <li><a href="#">Rajasthan</a></li>
+              <li><a href="/Report_display">Reports</a></li>
+              <li><a href="/Event_display">Events</a></li>
+              
             </ul>
           </li>
-          <li><a href="#">About</a></li>
-          <li><a>SSN'21</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#SSN21">SSN'21</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="/Submit" className="sbt-header" href="/Submit">Submit</a></li>
         </ul>
       </nav>
       <Fade left duration={3000}>
@@ -98,7 +97,9 @@ export default function Header() {
       <p className="head2">DELHI SSN</p>
 
       <p className="head3">WE <span className="htype" ref={textRef}></span></p>
-      <RiArrowDownSLine className="down_arrow" />
+      <a href="#About">
+        <RiArrowDownSLine className="down_arrow"/>
+        </a>
 
 
     </div>

@@ -7,7 +7,7 @@ function Mobmenu() {
   <div className="area"></div><nav className="main-menu">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#Home">
                         <i className="fa fa-home fa-2x"></i>
                         <span className="nav-text">
                             Home
@@ -16,7 +16,7 @@ function Mobmenu() {
                   
                 </li>
                 <li className="has-subnav">
-                    <a href="#">
+                    <a href="#Gallery">
                         <i className="fa fa-laptop fa-2x"></i>
                         <span className="nav-text">
                             Gallery
@@ -28,7 +28,7 @@ function Mobmenu() {
                
                 
                 <li>
-                    <a href="#">
+                    <a href="#About">
                         <i className="fa fa-font fa-2x"></i>
                         <span className="nav-text">
                            About
@@ -37,7 +37,7 @@ function Mobmenu() {
                 </li>
                 
                 <li>
-                   <a href="#">
+                   <a href="#SSN21">
                         <i className="fa fa-map-marker fa-2x"></i>
                         <span className="nav-text">
                             SSN'21
@@ -45,7 +45,7 @@ function Mobmenu() {
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#Contact">
                        <i className="fa fa-info fa-2x"></i>
                         <span className="nav-text">
                             Contact

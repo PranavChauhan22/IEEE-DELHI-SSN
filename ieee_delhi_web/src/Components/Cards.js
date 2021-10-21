@@ -3,32 +3,39 @@ import React from 'react'
 import "../styles/Cards.css"
 import { FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 
-function Cards() {
+const Cards=props =>{
+ 
     return (
         <div>
-            <div class="card">
-    <div class="banner"><svg viewBox="0 0 100 100">
-        </svg>
-        <div className="img_icon"/>
-</div>
-    <div class="menu">
-        <div class="opener"><span></span><span></span><span></span></div>
-    </div>
-    <h2 class="name">Gagan Singh</h2>
-    <div class="title">Section Student Representative</div>
-    <div class="actions">
-        <div class="follow-info">
-        <div className="foricons">
+            <div class="carde">
+                <div class="banner">
+            <img src={props.data.img} className="img-team-cards"/>
+                    
+                </div>
+                <div class="menu">
+                    <div class="opener"><span></span><span></span><span></span></div>
+                </div>
+                <h2 class="name">{props.data.name}</h2>
+                <div class="title">{props.data.des}</div>
+                <div class="actions">
+                    <div class="follow-info">
+                        <div className="foricons">
 
-<FaInstagram className="icons1" />
-<FaLinkedinIn className="icons2" />
-</div>
-        </div>
-        <div class="follow-btn"><button>SECTION STUDENT REPRESENTATIVE</button></div>
-    </div>
+                            <a href={props.data.lin} target="_blank">
+                                
+                                <FaInstagram className="icons1"/>
+                                </a>
+                                <a href={props.data.ig} target="_blank">
 
-    <div class="desc">Gagan is currently serving as a vice - chair at IEEE NSUT</div>
-</div>
+                            <FaLinkedinIn className="icons2"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="follow-btn"><button>{props.data.des}</button></div>
+                </div>
+
+                <div class="desc">{props.data.name} is currently serving as  {props.data.des} at IEEE DELHI SECTION</div>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+body{
+    /* overflow: hidden; */
+}
+
+
+.container-login {
+	display: flex;
+	height: 100vh;
+}
+
+.left-login {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	animation-name: left;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-delay: 1s;
+}
+
+.right-login {
+	flex: 1;
+	background-color: black;
+	transition: 1s;
+    background-image: url("../Images/header_final_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header-login > h2 {
+	margin: 0;
+	color: #4f46a5;
+}
+
+.header-login > h4 {
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.form-login {
+	max-width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-login > p {
+	text-align: right;
+}
+
+.form-login > p > a {
+	color: #000;
+	font-size: 14px;
+}
+
+.form-field-login {
+	height: 46px;
+	padding: 0 16px;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+	font-family: 'Rubik', sans-serif;
+	outline: 0;
+	transition: .2s;
+	margin-top: 20px;
+}
+
+.form-field-login:focus {
+	border-color: #0f7ef1;
+}
+
+.form-login > button {
+	padding: 12px 10px;
+	border: 0;
+	background: linear-gradient(to right, #de48b5 0%, #0097ff 100%);
+	border-radius: 3px;
+	margin-top: 10px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.animation-login {
+	animation-name: move;
+	animation-duration: .4s;
+	animation-fill-mode: both;
+	animation-delay: 2s;
+}
+
+.a1-login {
+	animation-delay: 2s;
+}
+
+.a2-login {
+	animation-delay: 2.1s;
+}
+
+.a3-login {
+	animation-delay: 2.2s;
+}
+
+.a4-login {
+	animation-delay: 2.3s;
+}
+
+.a5-login {
+	animation-delay: 2.4s;
+}
+
+.a6-login {
+	animation-delay: 2.5s;
+}
+
+@keyframes move {
+	0% {
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-40px);
+	}
+
+	100% {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
+}
+
+@keyframes left {
+	0% {
+		opacity: 0;
+		width: 0;
+	}
+
+	100% {
+		opacity: 1;
+		padding: 20px 40px;
+		width: 440px;
+	}
+}

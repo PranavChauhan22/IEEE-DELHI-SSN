@@ -5,7 +5,7 @@ import { IoIosArrowUp } from 'react-icons/io'
 import {ImPhone } from 'react-icons/im';
 function Contact() {
     return (
-        <div className="foot">
+        <div className="foot" id="Contact">
             <form action="https://submit-form.com/1rylS3aY" className="footer">
             <input
     type="hidden"
@@ -50,9 +50,13 @@ function Contact() {
       </span>
     </div>
     <div className="arrow-footer">
+
       <span className="back-to-top">
 Back to top
+<a href="#Home">
+
       <IoIosArrowUp className="up-arrow"/>
+</a>
       </span>
     </div>
 

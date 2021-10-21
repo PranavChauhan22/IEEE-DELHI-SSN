@@ -1,0 +1,324 @@
+$text: #2e293c;
+$secondary: #a09da6;
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1192 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1192 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flex-testi{
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 100px;
+    flex-direction: row;
+    width: 100vw;
+
+
+
+
+}
+
+.align-test{
+    height: 120vh;
+    position: absolute;
+    background-color: white;
+    width: 100vw;
+}
+@media only screen 
+and (min-width :1050px) {
+  
+  .flex-testi{
+    visibility: hidden;
+    
+  }
+  .testimonial-section{
+    position: absolute;
+    top: 10vh;
+  }
+.align-test{
+  
+    top: 640vh;
+}
+
+}
+
+@media only screen 
+and (min-width :681px) and (max-width:1050px) {
+  .testimonial-section{
+    visibility: hidden;
+  }
+    .align-test{
+        top: 1024vh;
+    }
+}
+@media only screen 
+and  (max-width:681px) {
+  .testimonial-section{
+    visibility: hidden;
+  }
+    .align-test{
+        top: 1360vh;
+    }
+}
+.testi-logo{
+    background-image: url("../Images/Testimonials.jpg");
+    width: 300px;
+    height: 190px;
+    z-index: 4;
+margin: auto;
+    
+   
+    background-size: cover;
+
+}
+
+figure.snip1192 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid white;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+
+figure.snip1192 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1192 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.snip1192 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.snip1192 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.snip1192 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1192 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+/* Demo purposes only */
+.bl-circle{
+  font-size: 280px;
+  z-index: 0;
+
+  color: #3f56da;
+
+  position: absolute;
+  left: 0;
+  margin: 90px;
+  top: -90px;
+}
+.test-img-dsgn{
+  border-radius: 15px;
+}
+.testimonial-section {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    background: #f2f2f6;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: -10;
+  }
+  .testimonial-container {
+    width: 1280px;
+    min-width: 1280px;
+    height: 600px;
+    position: relative;
+    .arrows {
+      position: absolute;
+      display: flex;
+      width: 100px;
+      margin: 100px;
+      align-items: center;
+      justify-content: center;
+      bottom: 0;
+      top: 0;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        box-shadow: 0px 0px 30px rgba(0, 0, 80, 0.05);
+      }
+      &.right {
+        right: 0;
+      }
+    }
+    .inner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      .t-image {
+        width: 500px;
+        height: 600px;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        &:after {
+          content: "";
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          background: #3f56da;
+          left: 140px;
+          top: 0;
+          border-radius: 100%;
+          z-index: -9;
+        }
+        ul {
+          display: flex;
+          position: absolute;
+          overflow: hidden;
+          height: 460px;
+          width: 340px;
+          box-shadow: 0px 0px 40px rgba(0, 0, 10, 0.25);
+          li {
+            height: 460px;
+            width: 340px;
+            img {
+              height: 460px;
+              width: 340px;
+            }
+          }
+        }
+      }
+      .t-content {
+        width: 500px;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        ul {
+          position: absolute;
+          overflow: hidden;
+          width: 500px;
+          height: 400px;
+          li {
+            width: 500px;
+            height: 400px;
+            color: $text;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            opacity: 0;
+            &:nth-child(1) {
+              &:after {
+                content: "";
+                position: absolute;
+                height: 12px;
+                width: 310px;
+                background: $text;
+                opacity: 0.3;
+                left: 0;
+                top: 206px;
+              }
+            }
+            &:nth-child(2) {
+              &:after {
+                content: "";
+                position: absolute;
+                height: 12px;
+                width: 148px;
+                background: $text;
+                opacity: 0.3;
+                left: 54px;
+                top: 126px;
+              }
+            }
+            &:nth-child(3) {
+              &:after {
+                content: "";
+                position: absolute;
+                height: 12px;
+                width: 280px;
+                background: $text;
+                opacity: 0.3;
+                left: 144px;
+                top: 166px;
+              }
+            }
+            .content-inner {
+              width: 500px;
+              .quote {
+                font-size: 26px;
+                letter-spacing: 0.88px;
+                line-height: 40px;
+                font-weight: 700;
+                margin-bottom: 16px;
+              }
+              .name {
+                font-size: 18px;
+                letter-spacing: 0.88px;
+                line-height: 28px;
+                color: $secondary;
+                font-weight: 600;
+              }
+              .title {
+                font-size: 18px;
+                letter-spacing: 0.88px;
+                line-height: 28px;
+                color: $secondary;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

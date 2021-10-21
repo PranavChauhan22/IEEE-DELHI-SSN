@@ -4,18 +4,21 @@ import { IoMdArrowDroprightCircle, IoMdArrowDropleftCircle } from 'react-icons/i
 import img from "../Images/Poster.jpeg"
 import {Link} from 'react-router-dom'
 import {useState} from "react"
+import { Carousel } from 'primereact/carousel';
+
 const MediaCard=(props)=> {
 const [state, setstate] = useState(0);
 console.log(state);
-console.log(props.data.length);
+console.log(props.data);
 if(props.data.length<=state){
   return(
-    <h1>Problem</h1>
+   <h1></h1>
   )
 }else{
   return (
     <div className="spacer">
-      <div className="logo_img"/>
+   
+      
       	<div class="blog-card spring-fever" style={{ 
       backgroundImage: `url('https://drive.google.com/thumbnail?id=${props.data[state].Event_Poster}')` 
     }}>

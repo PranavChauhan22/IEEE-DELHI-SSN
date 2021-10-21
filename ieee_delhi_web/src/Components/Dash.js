@@ -11,47 +11,40 @@ function Dash(props) {
     }=props;
     
     return (
-        <div className="login">
-            <div className="bg_login"/>
-            <div className="bg"/>
-            <div className="loginContainer">
-                <label>Username</label>
-                <input type="text"
+        <div classNameName="login">
+<div className="container-login">
+  <div className="left-login">
+    <div className="header-login">
+      <h2 className="animation-login a1-login">Welcome Back</h2>
+      <h4 className="animation-login a2-login">Log in to your account using email and password</h4>
+    </div>
+    <div className="form-login">
+                     <input type="email"
+                className="form-field-login animation-login a3-login"
                 autoFocus
                 required
                 value={email}
                 onChange={(e)=>setemail(e.target.value)}
+                placeholder="Email Address"
                 />
                 <p className="errorMsg">{emailerror}</p>
-                <label>Password</label>
+               
                 <input type="password"
+                className="form-field-login animation-login a4-login"
                 autoFocus
+                placeholder="Password"
                 required
                 value={password}
                 onChange={(e)=>setpassword(e.target.value)}
                 />
-                <p className="errorMsg">{passworderror}</p>
-                <div className="btnContainer">
-                    {hasaccount?(
-                        <>
-                        <button onClick={handleLogin}>Sign in</button>
-                        <p>
-                            Don't have an account ?
-                            <span onClick={()=>sethasaccount(!hasaccount)}>Sign up</span>
-                        </p>
-                        </>
-                    ):(
-                        <>
-                        <button onClick={handleSignup}>Sign up</button>
-                        <p>
-                            Have an account ?
-                            <span onClick={()=>sethasaccount(!hasaccount)}>Sign in</span>
-                        </p>
-                        </>
-                    )}
-                </div>
-                
-            </div>
+                   <p classNameName="errorMsg">{passworderror}</p>
+
+           <button className="animation-login a6-login" onClick={handleLogin}>Sign in</button>
+    </div>
+  </div>
+  <div className="right-login"></div>
+</div>
+
         </div>
 
     )

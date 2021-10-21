@@ -11,11 +11,20 @@ font-size: 30px;
 
 }
 @media only screen 
-and (max-width : 1050px) {
+and (min-width:556px) and (max-width : 1050px) {
 
 .align-gallery{
     position: absolute;
-    top: 265vh;
+    top: 435vh;
+    width: 100vw;background-color: white;
+}
+}
+@media only screen 
+and (max-width:555px){
+
+.align-gallery{
+    position: absolute;
+    top: 555vh;
     width: 100vw;background-color: white;
 }
 }
@@ -24,7 +33,7 @@ and (min-width : 1050px) {
 
 .align-gallery{
     position: absolute;
-    top: 220vh;
+    top: 300vh;
     width: 100vw;background-color: white;
 }
 }
