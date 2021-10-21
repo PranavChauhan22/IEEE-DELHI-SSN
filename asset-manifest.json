@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ieee_delhi_web/static/css/main.e380eedb.chunk.css",
+    "main.js": "/ieee_delhi_web/static/js/main.05541355.chunk.js",
+    "main.js.map": "/ieee_delhi_web/static/js/main.05541355.chunk.js.map",
+    "runtime-main.js": "/ieee_delhi_web/static/js/runtime-main.a8b9dd50.js",
+    "runtime-main.js.map": "/ieee_delhi_web/static/js/runtime-main.a8b9dd50.js.map",
+    "static/css/2.78b6e077.chunk.css": "/ieee_delhi_web/static/css/2.78b6e077.chunk.css",
+    "static/js/2.89386665.chunk.js": "/ieee_delhi_web/static/js/2.89386665.chunk.js",
+    "static/js/2.89386665.chunk.js.map": "/ieee_delhi_web/static/js/2.89386665.chunk.js.map",
+    "index.html": "/ieee_delhi_web/index.html",
+    "static/css/2.78b6e077.chunk.css.map": "/ieee_delhi_web/static/css/2.78b6e077.chunk.css.map",
+    "static/css/main.e380eedb.chunk.css.map": "/ieee_delhi_web/static/css/main.e380eedb.chunk.css.map",
+    "static/js/2.89386665.chunk.js.LICENSE.txt": "/ieee_delhi_web/static/js/2.89386665.chunk.js.LICENSE.txt",
+    "static/media/ReportsDisplay.css": "/ieee_delhi_web/static/media/reports-logo.1fd216c9.jpg",
+    "static/media/Archit goswami.31d41534.jpeg": "/ieee_delhi_web/static/media/Archit goswami.31d41534.jpeg",
+    "static/media/Events.css": "/ieee_delhi_web/static/media/header_final_img.a822613d.jpg",
+    "static/media/Header.css": "/ieee_delhi_web/static/media/header_satellite.2af48072.png",
+    "static/media/Mahesh_jangid.de3bd4db.jpeg": "/ieee_delhi_web/static/media/Mahesh_jangid.de3bd4db.jpeg",
+    "static/media/Meenu Khurana_Chandigarsh_sub-sec.41830a7a.jpeg": "/ieee_delhi_web/static/media/Meenu Khurana_Chandigarsh_sub-sec.41830a7a.jpeg",
+    "static/media/Poster.f00bba29.jpeg": "/ieee_delhi_web/static/media/Poster.f00bba29.jpeg",
+    "static/media/Rachana_ma_am.5ce4bd41.jpg": "/ieee_delhi_web/static/media/Rachana_ma_am.5ce4bd41.jpg",
+    "static/media/Rashmi Agarwal.8a0dd571.jpeg": "/ieee_delhi_web/static/media/Rashmi Agarwal.8a0dd571.jpeg",
+    "static/media/MyCarousel.css": "/ieee_delhi_web/static/media/Team-img.804e8301.jpg",
+    "static/media/Testimonials.scss": "/ieee_delhi_web/static/media/Testimonials.6a24b7f1.jpg",
+    "static/media/About.css": "/ieee_delhi_web/static/media/about_header_wbg.eb6e99e2.jpg",
+    "static/media/arrow-left.389e5dec.svg": "/ieee_delhi_web/static/media/arrow-left.389e5dec.svg",
+    "static/media/arrow-right.067f8094.svg": "/ieee_delhi_web/static/media/arrow-right.067f8094.svg",
+    "static/media/semantic.min.css": "/ieee_delhi_web/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/GallerySelector.css": "/ieee_delhi_web/static/media/gallery_icon.8fac19e8.jpg",
+    "static/media/Dashboard.css": "/ieee_delhi_web/static/media/ieee-web-form.6a5e9baa.jpg",
+    "static/media/primeicons.css": "/ieee_delhi_web/static/media/primeicons.e61f3495.woff",
+    "static/media/Services.css": "/ieee_delhi_web/static/media/services-logo.3787bb43.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8b9dd50.js",
+    "static/css/2.78b6e077.chunk.css",
+    "static/js/2.89386665.chunk.js",
+    "static/css/main.e380eedb.chunk.css",
+    "static/js/main.05541355.chunk.js"
+  ]
+}
